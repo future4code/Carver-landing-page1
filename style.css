@@ -1,7 +1,50 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 header{
-    background-color: aquamarine;
+    height: 60px;
+}
+/* MAIN */
+
+/* PRIMEIRA SECTION */
+
+.section{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm405-d07-mockup.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c23f73215b486bfada620366c9464810);
+    background-size: auto;
+    
+}
+
+.texto-e-subtexto{
+    border: 1px solid red;
+    width: 43vw;
+    height: 43vh;
+    margin: 13vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+
+}
+
+.texto-e-subtexto #titulo{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.texto-e-subtexto #subtitulo{
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+
+/* SEGUNDA SECTION */
+
+#segunda-section{
+    
 }
