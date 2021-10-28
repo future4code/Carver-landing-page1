@@ -11,7 +11,7 @@ header{
 
 /* PRIMEIRA SECTION */
 
-.section{
+section{
     display: flex;
     align-items: center;
     width: 100vw;
@@ -46,5 +46,61 @@ header{
 /* SEGUNDA SECTION */
 
 #segunda-section{
-    
+    display: flex;
+    background-color: grey;
+}
+
+#segunda-section .texto-e-subtexto{
+    margin: 5vw;
+    width: 40vw;
+    height: 45vh;
+
+}
+#segunda-section #titulo{
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+#segunda-section #subtitulo{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+#link{
+    display: flex;
+}
+
+#segunda-section a{
+    font-weight: bold;
+    color: yellow;
+    padding-right: 10px;
+}
+
+/* TERCEIRA SECTION */
+
+#terceira-section .texto-e-subtexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+#terceira-section #link{
+    font-weight: bold;
+}
+
+/* QUARTA SECTION */
+
+#quarta-section .texto-e-subtexto{
+    height: 45vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#quarta-section #link{
+    margin-top: 15px
 }
