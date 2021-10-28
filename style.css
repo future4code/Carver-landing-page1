@@ -1,7 +1,75 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* --- ESTILIZAÇÃO DO HEADER --- */
 header{
-    background-color: aquamarine;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: 60px;
+    align-items: center;
+    justify-content: space-between;
+   width: 100vw;
+   height: 60px;
+   color: #000;
+   background-color:#ff904e;
+   padding: 0 40px;
 }
+.material-icons{
+    padding: 0 5px;
+}
+.logo-header{
+    
+    height: 100%;
+    border-radius: 50%;
+}
+.Pagina-inicial-header{
+    display: flex;
+    align-items: center;
+}
+.Perguntas{
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+.Login-header{
+    display: flex;
+  align-items: center;
+    justify-self: flex-end;
+    margin-left: 13px;
+}
+.Formulario-adimicional-header{
+    display: flex;
+    align-items: flex-end;
+    justify-self: center;
+    
+}
+.Formulario-adimicional-header button{
+   
+         background-color:#ffbd5a;
+         border: none;
+         height: 40px;
+         line-height: 30px;
+         padding: 0 20px;
+         text-transform: uppercase;
+         font-weight: bold;
+         cursor: pointer;
+         border-radius: 30px;
+}
+.Formulario-adimicional-header button:hover{
+    background-color: #f55b00;
+    opacity: 0.8;
+}
+.Login-header:hover{
+    opacity: 0.5;
+}
+.Perguntas:hover{
+    opacity: 0.5;
+}
+.Pagina-inicial-header:hover{
+    opacity: 0.5;
+}
+
+  
