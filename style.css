@@ -5,6 +5,10 @@
 body {
     overflow-x: hidden
     }
+a{
+        text-decoration: none;
+        color:black;
+}
 /* --- ESTILIZAÇÃO DO HEADER --- */
 .header_menu{
     display: none;
@@ -22,6 +26,26 @@ body {
    background-color:#ff904e;
   padding: 0 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label[for="bt_menu"]{
+    padding: 0px;
+    background-color:#ff914d;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    width: 40px;
+    height: 50px;
+}
+.header_menu{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    margin-left:-100%;
+    transition: all 0.4s;
 }
 .material-icons{
     padding: 0 5px;
@@ -251,26 +275,7 @@ hr {
     font-size: 0.9rem;
     margin-bottom: 1.5%;
 }
-label[for="bt_menu"]{
-    padding: 0px;
-    background-color:#ff914d;
-    color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-size: 40px;
-    cursor: pointer;
-    width: 40px;
-    height: 50px;
-}
-.header_menu{
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    height: 100vh;
-    justify-content: center;
-    margin-left:-100%;
-    transition: all 0.4s;
-}
+
 /* ESTILIZAÇÃO Responsiva */
 @media screen and (max-device-width:800px) {
     label[for="bt_menu"]{
