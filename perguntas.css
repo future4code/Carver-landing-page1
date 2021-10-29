@@ -382,9 +382,6 @@ footer li:hover {
         opacity: 1;
     }
     
-    .Pagina-inicial-header:hover {
-        opacity: 1;
-    }
     /* responsividade-main */
     .descricao-perguntas{
         width: 100%;
@@ -396,7 +393,6 @@ footer li:hover {
         margin-left: 15px;
     }
     .footer-f4, .footer-produtos, .footer-explorer, .footer-mais, .footer-transparencia, .footer-ouvidoria, .footer-fale, .footer-app {
-
         font-size: 0.8rem;
         margin-bottom: 7%;
     }
@@ -405,7 +401,12 @@ footer li:hover {
     }
     .footer-final {
         justify-content: start;
-        
+    }
+    .footer-app img {
+        width: 100px;
+    }
+    .footer-social img {
+        padding-left: 10px
     }
     .footer-app img {
         min-width: 80px;

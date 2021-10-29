@@ -390,4 +390,10 @@ footer li:hover {
         justify-content: start;
         margin-left: 50px;
     }
+    .footer-app img {
+        width: 100px;
+    }
+    .footer-social img {
+        padding-left: 10px
+    }
 }
