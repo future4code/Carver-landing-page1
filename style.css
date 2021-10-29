@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -29,13 +30,11 @@ a{
    color: #000;
    background-color:#ff904e;
   padding: 0 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 label[for="bt_menu"]{
     padding: 0px;
     background-color:#ff914d;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 40px;
     cursor: pointer;
@@ -131,16 +130,17 @@ main section {
     align-items: center;
     width: 100vw;
     height: 90vh;
-    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm405-d07-mockup.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c23f73215b486bfada620366c9464810);
-    background-size: auto;
+    background-image: url(https://images-ext-1.discordapp.net/external/YfBEIybNg0-7J5g5SYjOBuMphPuOU7BahP8SPxqz-P8/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D1453%26q%3D80/https/images.unsplash.com/photo-1457131760772-7017c6180f05?width=688&height=468);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .texto-e-subtexto {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 43vw;
     height: 43vh;
     margin: 13vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
 }
 
@@ -160,6 +160,8 @@ main section {
 #segunda-section {
     display: flex;
     background-color: grey;
+    background-image: url(https://images-ext-1.discordapp.net/external/b2fzYz4DjQ37l3PmxO07HmiV22XhUMIkAC9yznZfyRU/%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D870%26q%3D80/https/images.unsplash.com/photo-1613243555978-636c48dc653c?width=702&height=468);
+    background-size: cover;
 }
 
 #segunda-section .texto-e-subtexto {
@@ -169,7 +171,7 @@ main section {
 }
 
 #segunda-section #titulo {
-    color: yellow;
+    color: #ff904e;
     font-size: 50px;
     font-weight: bold;
 }
@@ -186,12 +188,16 @@ main section {
 
 #segunda-section a {
     font-weight: bold;
-    color: yellow;
+    color: #ff904e;
     padding-right: 10px;
 }
 
 /* TERCEIRA SECTION */
 
+#terceira-section{
+    background-image: url(https://images-ext-2.discordapp.net/external/BkPa5K7-gau0sRJuGHkLG1RzCsjSkZWA0lyTrSfpZ0w/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D870%26q%3D80/https/images.unsplash.com/photo-1459257831348-f0cdd359235f?width=702&height=468);
+    background-size: cover;
+}
 #terceira-section .texto-e-subtexto {
     display: flex;
     flex-direction: column;
@@ -205,17 +211,35 @@ main section {
 
 /* QUARTA SECTION */
 
+#quarta-section{
+    background-image: url(https://images-ext-2.discordapp.net/external/qHHw9GLaFGT0duCr4rBvkqhys6L-mTm-I8wxSalk_Ug/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D1470%26q%3D80/https/images.unsplash.com/photo-1531482615713-2afd69097998?width=702&height=468);
+    background-size: cover;
+    color: white;
+}
 #quarta-section .texto-e-subtexto {
     height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: white;
 }
 
 #quarta-section #link {
-    margin-top: 15px
+    margin-top: 15px;
+    color: white;
 }
 
+#quarta-section a{
+    color: white;
+}
+
+/*  QUINTA SECTION */
+
+#quinta-section{
+    background-image: url(https://images-ext-2.discordapp.net/external/TtlLdvKlBPyNrHPv8ZZIMiSm2Vlxcd-oXfi-aFGnYak/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D871%26q%3D80/https/images.unsplash.com/photo-1436262513933-a0b06755c784?width=702&height=468);
+
+    background-size: cover;
+}
 /* ESTILIZAÇÃO DO FOOTER */
 
 footer {
