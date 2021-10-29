@@ -339,7 +339,8 @@ footer li:hover {
     }
     body {
         background-color: #ff914d;
-        width: 100vw;
+        width: 100%;
+        overflow-x: hidden;
     }
     #bt_menu:checked~.header_menu {
         margin-left: 0%;
@@ -355,7 +356,6 @@ footer li:hover {
         background-color: #ff914d;
         height: 28%;
     }
- 
     .Perguntas {
         justify-content: center
     }
@@ -382,7 +382,9 @@ footer li:hover {
         opacity: 1;
     }
     
-  
+    .Pagina-inicial-header:hover {
+        opacity: 1;
+    }
     /* responsividade-main */
     .descricao-perguntas{
         width: 100%;
@@ -404,5 +406,8 @@ footer li:hover {
     .footer-final {
         justify-content: start;
         
+    }
+    .footer-app img {
+        min-width: 80px;
     }
 }
