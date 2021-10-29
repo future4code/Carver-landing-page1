@@ -104,3 +104,47 @@ small{
 i{
     margin-top: 2.5vh;
 }
+
+/* x pra fechar o menu */
+    #fechar{
+        display: none;
+        text-decoration: none;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 800px) {
+    /* celulares e tablets*/
+
+
+    #logo-da-pagina{
+        display: none;
+    }
+
+    main .formulario{
+        width: 88vw;
+        height: 88vh;
+    }
+
+    .formulario p{
+        font-size: 1.5em;
+    }
+
+    .formulario input, #submit{
+        width: 50vw;
+    }
+
+    #fechar{
+        display: inline;
+        position: relative;
+        top: 3vh;
+        left: 35vw;
+    }
+
+    #smalls, #submit{
+        margin-top: 0.01vh;
+    }
+}
+    
