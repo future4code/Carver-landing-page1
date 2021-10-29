@@ -7,9 +7,10 @@
 body {
     overflow-x: hidden
 }
-a{
-        text-decoration: none;
-        color:black;
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /* --- ESTILIZAÇÃO DO HEADER --- */
@@ -25,15 +26,16 @@ a{
     grid-template-rows: 60px;
     align-items: center;
     justify-content: space-between;
-   width: 100vw;
-   height: 60px;
-   color: #000;
-   background-color:#ff904e;
-  padding: 0 40px;
+    width: 100vw;
+    height: 60px;
+    color: #000;
+    background-color: #ff904e;
+    padding: 0 40px;
 }
-label[for="bt_menu"]{
+
+label[for="bt_menu"] {
     padding: 0px;
-    background-color:#ff914d;
+    background-color: #ff914d;
     color: #fff;
     text-align: center;
     font-size: 40px;
@@ -41,13 +43,14 @@ label[for="bt_menu"]{
     width: 40px;
     height: 50px;
 }
-.header_menu{
+
+.header_menu {
     font-size: 20px;
     width: 100%;
     text-align: center;
     height: 100vh;
     justify-content: center;
-    margin-left:-100%;
+    margin-left: -100%;
     transition: all 0.4s;
 }
 
@@ -194,10 +197,11 @@ main section {
 
 /* TERCEIRA SECTION */
 
-#terceira-section{
+#terceira-section {
     background-image: url(https://images-ext-2.discordapp.net/external/BkPa5K7-gau0sRJuGHkLG1RzCsjSkZWA0lyTrSfpZ0w/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D870%26q%3D80/https/images.unsplash.com/photo-1459257831348-f0cdd359235f?width=702&height=468);
     background-size: cover;
 }
+
 #terceira-section .texto-e-subtexto {
     display: flex;
     flex-direction: column;
@@ -211,11 +215,12 @@ main section {
 
 /* QUARTA SECTION */
 
-#quarta-section{
+#quarta-section {
     background-image: url(https://images-ext-2.discordapp.net/external/qHHw9GLaFGT0duCr4rBvkqhys6L-mTm-I8wxSalk_Ug/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D1470%26q%3D80/https/images.unsplash.com/photo-1531482615713-2afd69097998?width=702&height=468);
     background-size: cover;
     color: white;
 }
+
 #quarta-section .texto-e-subtexto {
     height: 45vh;
     display: flex;
@@ -229,17 +234,17 @@ main section {
     color: white;
 }
 
-#quarta-section a{
+#quarta-section a {
     color: white;
 }
 
 /*  QUINTA SECTION */
 
-#quinta-section{
+#quinta-section {
     background-image: url(https://images-ext-2.discordapp.net/external/TtlLdvKlBPyNrHPv8ZZIMiSm2Vlxcd-oXfi-aFGnYak/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D871%26q%3D80/https/images.unsplash.com/photo-1436262513933-a0b06755c784?width=702&height=468);
-
     background-size: cover;
 }
+
 /* ESTILIZAÇÃO DO FOOTER */
 
 footer {
@@ -310,8 +315,8 @@ footer li:hover {
     margin-bottom: 1.5%;
 }
 
-
 /* ESTILIZAÇÃO RESPONSIVA */
+
 @media screen and (max-device-width:800px) {
     label[for="bt_menu"] {
         display: block;
@@ -351,5 +356,27 @@ footer li:hover {
     }
     .header {
         display: none;
+    }
+}
+
+/* Responsividade do Footer */
+
+@media screen and (min-width: 1px) and (max-width: 1024px) {
+    .footer-container {
+        justify-content: start;
+        margin-left: 50px;
+    }
+    .footer-f4, .footer-produtos, .footer-explorer, .footer-mais, .footer-transparencia, .footer-ouvidoria, .footer-fale, .footer-app {
+        width: 40%;
+        min-width: 350px;
+        font-size: 0.8rem;
+        margin-bottom: 7%;
+    }
+    .footer-final .info-final {
+        display: none;
+    }
+    .footer-final {
+        justify-content: start;
+        margin-left: 50px;
     }
 }
