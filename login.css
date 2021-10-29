@@ -29,6 +29,7 @@ main{
 main .formulario{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     align-self: center;
     width: 33vw;
@@ -56,9 +57,7 @@ form{
 
 
 input{
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border:none;
     border-bottom: 0.2vw dotted rgba(220, 220, 220);
     width: 22.5vw;
     margin: 2vh;
@@ -68,10 +67,8 @@ input{
 
 input:focus{
     outline:none;
+    border: none;
     border-bottom: 0.2vw dotted #ff904e;
-    border-top: none;
-    border-left: none;
-    border-right: none;
 }
 
 #submit{
@@ -97,4 +94,13 @@ small{
     flex-direction: column;
     justify-content: center;
     margin-top: 3vh;
+}
+
+.cada-small{
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    margin-top: 2.5vh;
 }
