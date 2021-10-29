@@ -339,7 +339,8 @@ footer li:hover {
     }
     body {
         background-color: #ff914d;
-        width: 100vw;
+        width: 100%;
+        overflow-x: hidden;
     }
     #bt_menu:checked~.header_menu {
         margin-left: 0%;
@@ -406,5 +407,8 @@ footer li:hover {
     }
     .footer-social img {
         padding-left: 10px
+    }
+    .footer-app img {
+        min-width: 80px;
     }
 }
