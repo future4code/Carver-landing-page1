@@ -1,156 +1,166 @@
-*{
-  margin:0;
-  padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
+
 body {
     overflow-x: hidden
-    }
+}
+
 /* --- ESTILIZAÇÃO DO HEADER --- */
-.header_menu{
+
+.header_menu {
     display: none;
 }
-.header{
+
+.header {
     position: fixed;
     display: grid;
     grid-template-columns: 0.2fr 0.6fr 1fr 1fr 1fr;
     grid-template-rows: 60px;
     align-items: center;
     justify-content: space-between;
-   width: 100vw;
-   height: 60px;
-   color: #000;
-   background-color:#ff904e;
-  padding: 0 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 60px;
+    color: #000;
+    background-color: #ff904e;
+    padding: 0 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.material-icons{
+
+.material-icons {
     padding: 0 5px;
 }
-.logo-header{
-    
+
+.logo-header {
     height: 100%;
     border-radius: 50%;
 }
-.Pagina-inicial-header{
+
+.Pagina-inicial-header {
     display: flex;
     align-items: center;
 }
-.Perguntas{
+
+.Perguntas {
     display: flex;
     align-items: center;
     justify-self: start;
 }
-.Login-header{
+
+.Login-header {
     display: flex;
-  align-items: center;
+    align-items: center;
     justify-self: flex-end;
     margin-left: 13px;
 }
-.Formulario-adimicional-header{
+
+.Formulario-adimicional-header {
     display: flex;
     align-items: flex-end;
     justify-self: center;
-    
 }
-.Formulario-adimicional-header button{
-   
-         background-color:#ffbd5a;
-         border: none;
-         height: 40px;
-         line-height: 30px;
-         padding: 0 20px;
-         text-transform: uppercase;
-         font-weight: bold;
-         cursor: pointer;
-         border-radius: 30px;
+
+.Formulario-adimicional-header button {
+    background-color: #ffbd5a;
+    border: none;
+    height: 40px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
 }
-.Formulario-adimicional-header button:hover{
+
+.Formulario-adimicional-header button:hover {
     background-color: #f55b00;
     opacity: 0.8;
 }
-.Login-header:hover{
+
+.Login-header:hover {
     opacity: 0.5;
 }
-.Perguntas:hover{
+
+.Perguntas:hover {
     opacity: 0.5;
 }
-.Pagina-inicial-header:hover{
+
+.Pagina-inicial-header:hover {
     opacity: 0.5;
 }
-#bt_menu{
+
+#bt_menu {
     display: none;
 }
-label[for="bt_menu"]{
+
+label[for="bt_menu"] {
     display: none;
 }
-  
+
 /* MAIN */
 
 /* PRIMEIRA SECTION */
 
-main section{
+main section {
     display: flex;
     align-items: center;
     width: 100vw;
     height: 90vh;
     background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm405-d07-mockup.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c23f73215b486bfada620366c9464810);
     background-size: auto;
-    
 }
 
-.texto-e-subtexto{
+.texto-e-subtexto {
     border: 1px solid red;
     width: 43vw;
     height: 43vh;
     margin: 13vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-
 }
 
-.texto-e-subtexto #titulo{
+.texto-e-subtexto #titulo {
     font-size: 40px;
     font-weight: bold;
 }
 
-.texto-e-subtexto #subtitulo{
+.texto-e-subtexto #subtitulo {
     margin-top: 25px;
     font-size: 23px;
     font-weight: bold;
-    
 }
 
 /* SEGUNDA SECTION */
 
-#segunda-section{
+#segunda-section {
     display: flex;
     background-color: grey;
 }
 
-#segunda-section .texto-e-subtexto{
+#segunda-section .texto-e-subtexto {
     margin: 5vw;
     width: 40vw;
     height: 45vh;
-
 }
-#segunda-section #titulo{
+
+#segunda-section #titulo {
     color: yellow;
     font-size: 50px;
     font-weight: bold;
-
 }
 
-#segunda-section #subtitulo{
+#segunda-section #subtitulo {
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 15px;
 }
 
-#link{
+#link {
     display: flex;
 }
 
-#segunda-section a{
+#segunda-section a {
     font-weight: bold;
     color: yellow;
     padding-right: 10px;
@@ -158,27 +168,27 @@ main section{
 
 /* TERCEIRA SECTION */
 
-#terceira-section .texto-e-subtexto{
+#terceira-section .texto-e-subtexto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 40vh;
 }
 
-#terceira-section #link{
+#terceira-section #link {
     font-weight: bold;
 }
 
 /* QUARTA SECTION */
 
-#quarta-section .texto-e-subtexto{
-    height: 45vh ;
+#quarta-section .texto-e-subtexto {
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#quarta-section #link{
+#quarta-section #link {
     margin-top: 15px
 }
 
@@ -242,7 +252,7 @@ hr {
     margin-right: 1vh;
 }
 
- footer li:hover {
+footer li:hover {
     color: #ff914d;
 }
 
@@ -251,9 +261,10 @@ hr {
     font-size: 0.9rem;
     margin-bottom: 1.5%;
 }
-label[for="bt_menu"]{
+
+label[for="bt_menu"] {
     padding: 0px;
-    background-color:#ff914d;
+    background-color: #ff914d;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -262,62 +273,57 @@ label[for="bt_menu"]{
     width: 40px;
     height: 50px;
 }
-.header_menu{
+
+.header_menu {
     font-size: 20px;
     width: 100%;
     text-align: center;
     height: 100vh;
     justify-content: center;
-    margin-left:-100%;
+    margin-left: -100%;
     transition: all 0.4s;
 }
-/* ESTILIZAÇÃO Responsiva */
+
+/* ESTILIZAÇÃO RESPONSIVA */
+
 @media screen and (max-device-width:800px) {
-    label[for="bt_menu"]{
+    label[for="bt_menu"] {
         display: block;
     }
-    body{
-        background-color:#ff914d ;
+    body {
+        background-color: #ff914d;
         width: 100%;
-            
     }
-    
-    #bt_menu:checked ~ .header_menu{
+    #bt_menu:checked~.header_menu {
         margin-left: 0%;
         display: block;
     }
-
-    .header_menu ul{
-       display: block;
-       flex-direction: column;
-       justify-content: space-evenly;
-       height: 80%;
-       
+    .header_menu ul {
+        display: block;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80%;
     }
-    .header_menu ul li{
-        background-color:#ff914d;
+    .header_menu ul li {
+        background-color: #ff914d;
         height: 28%;
     }
-    
-    .Perguntas{
+    .Perguntas {
         justify-content: center
     }
-    .Login-header{
+    .Login-header {
         justify-content: center;
-        margin:0;
+        margin: 0;
     }
-    .Pagina-inicial-header{
+    .Pagina-inicial-header {
         justify-content: center
     }
-    .formulario-responsivo{
+    .formulario-responsivo {
         display: flex;
         justify-content: center;
         align-items: center
     }
-    .header{
+    .header {
         display: none;
     }
-    
-  
-    
 }
