@@ -17,14 +17,20 @@
             <a href="/index.html"><img src="img-login/f4bank (1).png" alt="logo da f4bank. Coração laranja escrito F4BANK dentro com letras brancas."></a>
         </div>
 
+        
+
         <!-- FORMULARIO -->
         <section class="formulario">
+        
+        <!-- X PARA FECHAR -->
+
+        <a href="/index.html"><i class="material-icons" id="fechar">close</i></a>
 
             <form action="#" method="post">
 
                 <p>Faça seu login</p>
                 <!-- INPUTS -->
-                <input type="text" name="CPF" placeholder="CPF" autofocus required>
+                <input type="text" name="CPF" placeholder="CPF" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" cautofocus required>
                 <input type="password" placeholder="Senha" required>
                 <input type="submit" value="Continuar" id="submit" required>
 
