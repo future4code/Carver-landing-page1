@@ -1,0 +1,106 @@
+/* TAGS GERAIS */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    background-color: #ff904e;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* LOGO DA PÁGINA */
+
+#logo-da-pagina img{
+    width: 8vw;
+    margin: 1.5vw 2vw;
+}
+
+/* FORMULARIO */
+
+main .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 33vw;
+    height: 95vh;
+    position: absolute;
+    top: 7vh;
+    border-radius: 1.6vh;
+    background-color: white;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.formulario p{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10vh;
+}
+
+
+input{
+    border:none;
+    border-bottom: 0.2vw dotted rgba(220, 220, 220);
+    width: 22.5vw;
+    margin: 2vh;
+    padding: 2vh;
+    font-size: 1rem;
+}
+
+input:focus{
+    outline:none;
+    border: none;
+    border-bottom: 0.2vw dotted #ff904e;
+}
+
+#submit{
+    background: none;
+    border: rgba(220, 220, 220) 1px solid;
+    color: rgba(220, 220, 220);
+    margin-top: 7vh;
+    height: 11vh;
+    width: 23vw;
+}
+
+small{
+    display: flex;
+    justify-content: center;
+    margin-top:3vh;
+    color: #ff904e;
+    font-weight: bold;
+
+}
+
+#smalls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.cada-small{
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    margin-top: 2.5vh;
+}
