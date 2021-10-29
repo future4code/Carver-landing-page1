@@ -357,6 +357,17 @@ footer li:hover {
     .header {
         display: none;
     }
+    .Login-header:hover {
+        opacity: 1;
+    }
+    
+    .Perguntas:hover {
+        opacity: 1;
+    }
+    
+    .Pagina-inicial-header:hover {
+        opacity: 1;
+    }
 }
 
 /* Responsividade do Footer */
