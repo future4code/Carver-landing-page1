@@ -236,7 +236,6 @@ main section {
     align-items: center;
     background-color: #ff904e;
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 #quinta-section .texto-e-subtexto-terceira {
     width: 80vw;
@@ -244,6 +243,23 @@ main section {
 }
 
 #quinta-section .descricao-perguntas {
+    line-height: 2;
+}
+#sexta-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff904e;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#sexta-section .texto-e-subtexto-terceira {
+    width: 80vw;
+    height: 20%;
+}
+
+#sexta-section .descricao-perguntas {
     line-height: 2;
 }
 
@@ -315,4 +331,78 @@ footer li:hover {
     min-width: 200px;
     font-size: 0.9rem;
     margin-bottom: 1.5%;
+}
+@media screen and (min-width: 1px) and (max-width: 480px) {
+    /* responsividade header */
+    label[for="bt_menu"] {
+        display: block;
+    }
+    body {
+        background-color: #ff914d;
+        width: 100vw;
+    }
+    #bt_menu:checked~.header_menu {
+        margin-left: 0%;
+        display: block;
+    }
+    .header_menu ul {
+        display: block;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80%;
+    }
+    .header_menu ul li {
+        background-color: #ff914d;
+        height: 28%;
+    }
+ 
+    .Perguntas {
+        justify-content: center
+    }
+    .Login-header {
+        justify-content: center;
+        margin: 0;
+    }
+    .Pagina-inicial-header {
+        justify-content: center
+    }
+    .formulario-responsivo {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .header {
+        display: none;
+    }
+    .Login-header:hover {
+        opacity: 1;
+    }
+    
+    .Perguntas:hover {
+        opacity: 1;
+    }
+    
+  
+    /* responsividade-main */
+    .descricao-perguntas{
+        width: 100%;
+        padding: 18px;
+    }
+    /* responsividade footer */
+    .footer-container {
+        justify-content: start;
+        margin-left: 15px;
+    }
+    .footer-f4, .footer-produtos, .footer-explorer, .footer-mais, .footer-transparencia, .footer-ouvidoria, .footer-fale, .footer-app {
+
+        font-size: 0.8rem;
+        margin-bottom: 7%;
+    }
+    .footer-final .info-final {
+        display: none;
+    }
+    .footer-final {
+        justify-content: start;
+        
+    }
 }
