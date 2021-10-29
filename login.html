@@ -7,21 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Login</title>
+    <title>Fazer login</title>
 </head>
 
 <body>
     <main>
-        <div>
-            <img src="img-login/f4bank (1).png" alt="logo da f4bank.">
+        <!-- LOGO DA PÁGINA -->
+        <div id="logo-da-pagina">
+            <img src="img-login/f4bank (1).png" alt="logo da f4bank. Coração laranja escrito F4BANK dentro com letras brancas.">
         </div>
 
+        <!-- FORMULARIO -->
         <section class="formulario">
-            <form>
+
+            <form action="#" method="post">
+
                 <p>Faça seu login</p>
-                <input type="text" name="CPF" placeholder="CPF" required>
+                <!-- INPUTS -->
+                <input type="text" name="CPF" placeholder="CPF" autofocus required>
                 <input type="password" placeholder="Senha" required>
                 <input type="submit" value="Continuar" id="submit" required>
+                
+                <!-- SMALLS -->
                 <div id="smalls">
                     <div class="cada-small">
                         <small>Esqueci minha senha</small>
@@ -33,6 +40,7 @@
                     </div>
 
                 </div>
+
             </form>
         </section>
     </main>
