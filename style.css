@@ -88,7 +88,7 @@ label[for="bt_menu"]{
 
 /* PRIMEIRA SECTION */
 
-#primeira-section{
+main section{
     display: flex;
     align-items: center;
     width: 100vw;
