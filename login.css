@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    background-color: #ff904e;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 8vw;
+    margin: 1.5vw 2vw;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 33vw;
+    height: 95vh;
+    position: absolute;
+    top: 7vh;
+    border-radius: 10px;background-color: white;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.formulario p{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10vh;
+}
+
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.2vw dotted grey;
+    width: 22.5vw;
+    margin: 2vh;
+    padding: 2vh;
+    font-size: 1rem;
+}
+
+#submit{
+    background: none;
+    border: grey 1px solid;
+    margin-top: 7vh;
+    height: 11vh;
+    width: 23vw;
+}
+
+#smalls{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.cada-small{
+    display: flex;
+    justify-content: center;
+}
+
+small{
+    margin-top:3vh;
+    color: #ff904e;
+    display: flex;
+
+}
