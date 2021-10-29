@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin:0;
+  padding:0;
 }
 /* --- ESTILIZAÇÃO DO HEADER --- */
 header{
@@ -171,3 +171,72 @@ section{
     margin-top: 15px
 }
 
+/* ESTILIZAÇÃO DO FOOTER */
+
+footer {
+    display: flex;
+    font-family: Verdana;
+    background-color: #111111;
+    color: white;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container {
+    padding-top: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.footer-titulo {
+    margin-bottom: 3vh;
+}
+
+.footer-menu li {
+    margin-bottom: 1vh;
+    list-style-type: none;
+}
+
+.footer-app img {
+    width: 45%;
+    height: auto;
+}
+
+.footer-final {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    font-size: 0.9rem;
+    justify-content: space-evenly;
+    margin: 5vh 0;
+}
+
+hr {
+    border: 1px solid #242424;
+}
+
+.footer-social img {
+    height: auto;
+    width: 3vh;
+    margin-right: 1vh;
+}
+
+li:hover {
+    color: #ff914d;
+}
+
+.footer-f4, .footer-produtos, .footer-explorer, .footer-mais, .footer-transparencia, .footer-ouvidoria, .footer-fale, .footer-app {
+    min-width: 200px;
+    font-size: 0.9rem;
+    margin-bottom: 1.5%;
+}
