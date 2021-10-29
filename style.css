@@ -5,7 +5,7 @@
 }
 
 body {
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 a {
@@ -396,4 +396,27 @@ footer li:hover {
     .footer-social img {
         padding-left: 10px
     }
+}
+
+/* Responsividade do Main */
+
+@media screen and (min-width: 1px) and (max-width: 1024px) {
+    #primeira-section {
+        align-items: center;
+    }
+    .texto-e-subtexto #titulo, #segunda-section #titulo, #terceira-section #titulo, #quatro-section #titulo {
+        font-size: 1.5rem;
+        width: 60vw;
+    }
+    .texto-e-subtexto #subtitulo, #segunda-section #subtitulo, #terceira-section #titulo, #quatro-section #titulo {
+        margin-top: 25px;
+        font-size: 1rem;
+        font-weight: bold;
+        width: 70vw;
+    }
+    a {
+        padding-top: 4vw;
+        font-size: 0.9rem;
+    }
+
 }
