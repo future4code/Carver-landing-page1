@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* --- ESTILIZAÇÃO DO HEADER --- */
+
+.header_menu {
+    display: none;
+}
+
+.header {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 0.2fr 0.6fr 1fr 1fr 1fr;
+    grid-template-rows: 60px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+    color: #000;
+    background-color: #ff904e;
+    padding: 0 40px;
+}
+
+label[for="bt_menu"] {
+    padding: 0px;
+    background-color: #ff914d;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    width: 40px;
+    height: 50px;
+}
+
+.header_menu {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    margin-left: -100%;
+    transition: all 0.4s;
+}
+
+.material-icons {
+    padding: 0 5px;
+}
+
+.logo-header {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.Pagina-inicial-header {
+    display: flex;
+    align-items: center;
+}
+
+.Perguntas {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+
+.Login-header {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    margin-left: 13px;
+}
+
+.Formulario-adimicional-header {
+    display: flex;
+    align-items: flex-end;
+    justify-self: center;
+}
+
+.Formulario-adimicional-header button {
+    background-color: #ffbd5a;
+    border: none;
+    height: 40px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.Formulario-adimicional-header button:hover {
+    background-color: #f55b00;
+    opacity: 0.8;
+}
+
+.Login-header:hover {
+    opacity: 0.5;
+}
+
+.Perguntas:hover {
+    opacity: 0.5;
+}
+
+.Pagina-inicial-header:hover {
+    opacity: 0.5;
+}
+
+#bt_menu {
+    display: none;
+}
+
+label[for="bt_menu"] {
+    display: none;
+}
+
+/* MAIN */
+
+/* PRIMEIRA SECTION */
+
+main section {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(https://images-ext-1.discordapp.net/external/YfBEIybNg0-7J5g5SYjOBuMphPuOU7BahP8SPxqz-P8/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D1453%26q%3D80/https/images.unsplash.com/photo-1457131760772-7017c6180f05?width=688&height=468);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto-e-subtexto {
+    /* border: 1px solid red; */
+    width: 43vw;
+    height: 43vh;
+    margin: 13vw;
+    font-weight: normal;
+}
+
+.texto-e-subtexto #titulo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.texto-e-subtexto #subtitulo {
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* SEGUNDA SECTION */
+
+#segunda-section {
+    display: flex;
+    background-color: grey;
+    background-image: url(https://images-ext-1.discordapp.net/external/b2fzYz4DjQ37l3PmxO07HmiV22XhUMIkAC9yznZfyRU/%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D870%26q%3D80/https/images.unsplash.com/photo-1613243555978-636c48dc653c?width=702&height=468);
+    background-size: cover;
+}
+
+#segunda-section .texto-e-subtexto {
+    margin: 5vw;
+    width: 40vw;
+    height: 45vh;
+}
+
+#segunda-section #titulo {
+    color: #ff904e;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#segunda-section #subtitulo {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+#link {
+    display: flex;
+}
+
+#segunda-section a {
+    font-weight: bold;
+    color: #ff904e;
+    padding-right: 10px;
+}
+
+/* TERCEIRA SECTION */
+
+#terceira-section {
+    background-image: url(https://images-ext-2.discordapp.net/external/BkPa5K7-gau0sRJuGHkLG1RzCsjSkZWA0lyTrSfpZ0w/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D870%26q%3D80/https/images.unsplash.com/photo-1459257831348-f0cdd359235f?width=702&height=468);
+    background-size: cover;
+}
+
+#terceira-section .texto-e-subtexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+#terceira-section #link {
+    font-weight: bold;
+}
+
+/* QUARTA SECTION */
+
+#quarta-section {
+    background-image: url(https://images-ext-2.discordapp.net/external/qHHw9GLaFGT0duCr4rBvkqhys6L-mTm-I8wxSalk_Ug/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D1470%26q%3D80/https/images.unsplash.com/photo-1531482615713-2afd69097998?width=702&height=468);
+    background-size: cover;
+    color: white;
+}
+
+#quarta-section .texto-e-subtexto {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+#quarta-section #link {
+    margin-top: 15px;
+    color: white;
+}
+
+#quarta-section a {
+    color: white;
+}
+
+/*  QUINTA SECTION */
+
+#quinta-section {
+    background-image: url(https://images-ext-2.discordapp.net/external/TtlLdvKlBPyNrHPv8ZZIMiSm2Vlxcd-oXfi-aFGnYak/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D871%26q%3D80/https/images.unsplash.com/photo-1436262513933-a0b06755c784?width=702&height=468);
+    background-size: cover;
+}
+
+/* ESTILIZAÇÃO DO FOOTER */
+
+footer {
+    display: flex;
+    font-family: Verdana;
+    background-color: #111111;
+    color: white;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container {
+    padding-top: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.footer-titulo {
+    margin-bottom: 3vh;
+}
+
+.footer-menu li {
+    margin-bottom: 1vh;
+    list-style-type: none;
+}
+
+.footer-app img {
+    width: 45%;
+    height: auto;
+}
+
+.footer-final {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    font-size: 0.9rem;
+    justify-content: space-evenly;
+    margin: 5vh 0;
+}
+
+hr {
+    border: 1px solid #242424;
+}
+
+.footer-social img {
+    height: auto;
+    width: 3vh;
+    margin-right: 1vh;
+}
+
+footer li:hover {
+    color: #ff914d;
+}
+
+.footer-f4, .footer-produtos, .footer-explorer, .footer-mais, .footer-transparencia, .footer-ouvidoria, .footer-fale, .footer-app {
+    min-width: 200px;
+    font-size: 0.9rem;
+    margin-bottom: 1.5%;
+}
+
+/* ESTILIZAÇÃO RESPONSIVA */
+
+@media screen and (max-device-width:800px) {
+    label[for="bt_menu"] {
+        display: block;
+    }
+    body {
+        background-color: #ff914d;
+        width: 100%;
+    }
+    #bt_menu:checked~.header_menu {
+        margin-left: 0%;
+        display: block;
+    }
+    .header_menu ul {
+        display: block;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80%;
+    }
+    .header_menu ul li {
+        background-color: #ff914d;
+        height: 28%;
+    }
+    .Perguntas {
+        justify-content: center
+    }
+    .Login-header {
+        justify-content: center;
+        margin: 0;
+    }
+    .Pagina-inicial-header {
+        justify-content: center
+    }
+    .formulario-responsivo {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .header {
+        display: none;
+    }
+    .Login-header:hover {
+        opacity: 1;
+    }
+    
+    .Perguntas:hover {
+        opacity: 1;
+    }
+    
+    .Pagina-inicial-header:hover {
+        opacity: 1;
+    }
+}
+
+/* Responsividade do Footer */
+
+@media screen and (min-width: 1px) and (max-width: 1024px) {
+    .footer-container {
+        justify-content: start;
+        margin-left: 50px;
+    }
+    .footer-f4, .footer-produtos, .footer-explorer, .footer-mais, .footer-transparencia, .footer-ouvidoria, .footer-fale, .footer-app {
+        width: 40%;
+        min-width: 350px;
+        font-size: 0.8rem;
+        margin-bottom: 7%;
+    }
+    .footer-final .info-final {
+        display: none;
+    }
+    .footer-final {
+        justify-content: start;
+        margin-left: 50px;
+    }
+    .footer-app img {
+        width: 100px;
+    }
+    .footer-social img {
+        padding-left: 10px
+    }
+}
+
+/* Responsividade do Main */
+
+@media screen and (min-width: 1px) and (max-width: 1024px) {
+    #primeira-section {
+        align-items: center;
+    }
+    .texto-e-subtexto #titulo, #segunda-section #titulo, #terceira-section #titulo, #quatro-section #titulo {
+        font-size: 1.5rem;
+        width: 60vw;
+    }
+    .texto-e-subtexto #subtitulo, #segunda-section #subtitulo, #terceira-section #titulo, #quatro-section #titulo {
+        margin-top: 25px;
+        font-size: 1rem;
+        font-weight: bold;
+        width: 70vw;
+    }
+    a {
+        padding-top: 4vw;
+        font-size: 0.9rem;
+    }
+
+}

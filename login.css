@@ -1,0 +1,156 @@
+/* TAGS GERAIS */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fechar {
+    display: none;
+}
+
+body{
+    background-color: #ff904e;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* LOGO DA PÁGINA */
+
+#logo-da-pagina img{
+    width: 8vw;
+    margin: 1.5vw 2vw;
+}
+
+/* FORMULARIO */
+
+main .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 33vw;
+    height: 95vh;
+    position: absolute;
+    top: 7vh;
+    border-radius: 1.6vh;
+    background-color: white;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.formulario p{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10vh;
+}
+
+
+input{
+    border:none;
+    border-bottom: 0.2vw dotted rgba(220, 220, 220);
+    width: 22.5vw;
+    margin: 2vh;
+    padding: 2vh;
+    font-size: 1rem;
+}
+
+input:focus{
+    outline:none;
+    border: none;
+    border-bottom: 0.2vw dotted #ff904e;
+}
+
+#submit{
+    background: none;
+    border: rgba(220, 220, 220) 1px solid;
+    color: rgba(220, 220, 220);
+    margin-top: 7vh;
+    height: 11vh;
+    width: 23vw;
+}
+
+small{
+    display: flex;
+    justify-content: center;
+    margin-top:3vh;
+    color: #ff904e;
+    font-weight: bold;
+
+}
+
+#smalls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.cada-small{
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    margin-top: 2.5vh;
+}
+
+<<<<<<< HEAD
+/* x pra fechar o menu */
+    #fechar{
+        display: none;
+        text-decoration: none;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 800px) {
+    /* celulares e tablets*/
+
+
+    #logo-da-pagina{
+        display: none;
+    }
+
+    main .formulario{
+        width: 88vw;
+        height: 88vh;
+    }
+
+    .formulario p{
+        font-size: 1.5em;
+    }
+
+    .formulario input, #submit{
+        width: 50vw;
+    }
+
+    #fechar{
+        display: inline;
+        position: relative;
+        top: 3vh;
+        left: 35vw;
+    }
+
+    #smalls, #submit{
+        margin-top: 0.01vh;
+    }
+}
+    
+=======
+>>>>>>> e98f7db25e92a581d788c74cf64d80c12388b34d
